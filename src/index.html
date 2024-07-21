@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+  <style>
+    .centered-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 100vh;
+      min-height: 75vh;
+      position: relative; 
+    }
+    .background-section {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      z-index: -1;
+    }
+    .centered-top {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 30vh;
+      min-height: 15vh;
+      position: relative; 
+    }
+    .centered-middle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem; /* Space between boxes */
+      padding: 1rem; /* Padding around the boxes */
+    }
+    .box {
+      background-color: whitesmoke; /* Use a specific color */
+      height: 150px; /* Fixed height for visibility */
+      width: 300px; /* Fixed width for uniformity */
+     
+     
+      padding-left: 4px;
+      border-radius: 8px; /* Rounded corners */
+    }
+    .box1 {
+      background-color: whitesmoke; /* Use a specific color */
+      height: 400px;
+      width: 300px; 
+     
+     
+      padding: 4px;
+      border-radius: 8px; 
+    }
+    .box2 {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  padding: 1rem;
+  width: 150px;
+  height: 100px;
+}
+.box3 {
+      background-color: white; /* Use a specific color */
+      height: 300px;
+      width: 250px; 
+      display: flex ;
+      flex-direction: column;
+      margin-left: 4px;
+      align-items: center;
+      justify-content: center;
+     
+     
+      padding: 4px;
+      border-radius: 8px; 
+    }
+    .box4 {
+      background-color: transparent; /* Use a specific color */
+      height: 450px;
+      width: 250px; 
+      display: flex ;
+     
+      margin-left: 4px;
+      align-items: center;
+      justify-content: center;
+     
+     
+      padding: 4px;
+      border-radius: 8px; 
+    }
+    .box5 {
+      background-color: whitesmoke; /* Use a specific color */
+      height: 300px;
+      width: 250px; 
+      display: flex;
+      flex-direction: column;
+      margin-left: 4px;
+      align-items: center;
+      justify-content: center;
+     
+     
+      padding: 4px;
+      border-radius: 8px; 
+    }
+    .box6 {
+      background-color: whitesmoke; /* Use a specific color */
+      height: 200px;
+      width: 450px; 
+      display: flex;
+     
+    
+     
+
+    }
+    .background-image {
+     /* Maintain aspect ratio */
+      object-fit: cover; /* Cover the width of the screen */
+    }
+  </style>
+</head>
+<body>
+    <div class="container mx-auto">
+        <div class="flex  justify-between items-center py-4">
+            <div class="flex gap-4" style="margin-left: 8rem;">
+                <div>
+                  <img src="https://static.vecteezy.com/system/resources/previews/000/615/318/original/education-logo-template-vector-illustration-design.jpg" width="60px" height="60px">
+                </div>
+                <div class="font-bold text-blue-950 text-2xl">Edustage</div>
+            </div>
+            <div class="flex gap-10">
+                <div class="font-bold text-blue-950">Home</div>
+                <div class="font-bold text-blue-950">Projects</div>
+                <div class="font-bold text-blue-950">Skills</div>
+                <div class="font-bold text-blue-950">Work</div>
+                <div class="font-bold text-blue-950">Contact us</div>
+            </div>
+        </div>
+        <section class="h-[100rem] min-h-[75vh]" style="margin-top: 4rem;">
+          <div class="relative centered-content h-[100rem] min-h-[75vh]">
+            <!-- Background image section -->
+          
+            <!-- Content goes here -->
+            <p class="text-blue-950 mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet quisquam quas</p>
+            <h1 class="text-blue-950 text-5xl font-bold">ONE STEP AHEAD THIS SEASON</h1>
+            <div class="flex gap-10 mt-10"">
+              <button class="bg-blue-950 h-12 rounded-md text-white font-bold text-sm w-45" style="width: 150px; ">Click Here to Enroll</button>
+              <button class="bg-yellow-400 h-12 font-bold rounded-md text-sm text-white" style="width: 150px;">Browse Course</button>
+             
+
+            </div>
+                
+
+            <div style="margin-top: 20px;">
+              <img class="background-image " src="https://freepngimg.com/thumb/school/34071-8-students-learning.png" alt="Learning Studen" >
+            </div>
+           
+          </div>
+          
+
+          
+        </section>
+        
+
+        <section class="centered-top">
+            <div class="flex flex-col min-h-screen justify-center items-center">
+                <h1 class="min-h-screen text-center text-blue-950 font-extrabold text-2xl">Awesome Feature</h1>
+            </div>
+            <p class="text-gray-500 text-sm font-light">Education is key to success</p>
+        </section>
+        
+        <div class="centered-middle">
+          <div class="box flex items-center justify-center h-32 bg-slate-500 text-black">
+              <div class="px-4 py-4 mt-4"> <!-- Increased padding for better spacing -->
+                  <div class="text-center mb-2"> <!-- Center the logo and add margin below -->
+                      <div class="">
+                        <img src="https://www.lremanagementllc.com/wp-content/uploads/2019/08/w4.png " width="40px" height="40px"  >
+                      </div> <!-- Logo styling -->
+                  </div>
+                  <p class="text-blue-950 font-extrabold text-xl mt-2">Scholarship Faculty</p>
+                  <p class="text-black text-xs font-light mt-2">Education is very important</p> <!-- Adjusted margin-top for spacing -->
+              </div>
+          </div>
+          <div class="box flex items-center justify-center h-32 bg-slate-500 text-black"> <div class="px-4 py-4 mt-4"> <!-- Increased padding for better spacing -->
+            <div class="text-center mb-2"> <!-- Center the logo and add margin below -->
+              <div class="">
+                <img src="https://icon-library.com/images/book-icon-transparent/book-icon-transparent-27.jpg " width="40px" height="40px"  >
+              </div> <!-- Logo styling -->
+            </div>
+            <p class="text-blue-950 font-extrabold text-xl mt-2">Certification</p>
+            <p class="text-black text-xs font-light mt-2">Education is very important</p> <!-- Adjusted margin-top for spacing -->
+        </div></div> <!-- Added height and styling for visibility -->
+          <div class="box flex items-center justify-center h-32 bg-slate-500 text-black"> <div class="px-4 py-4 mt-4"> <!-- Increased padding for better spacing -->
+            <div class="text-center "> <!-- Center the logo and add margin below -->
+              <div class="">
+                <img src="https://www.clipartkey.com/mpngs/m/31-311556_website-logo-png-transparent-background-clipart-png-transparent.png " width="40px" height="40px"  >
+              </div> <!-- Logo styling -->
+            </div>
+            <p class="text-blue-950 font-extrabold text-xl mt-2">Set Online Courses</p>
+            <p class="text-black text-xs font-light mt-2">Education is very important</p> <!-- Adjusted margin-top for spacing -->
+        </div></div> <!-- Added height and styling for visibility -->
+      </div>
+      <div class="centered-top">
+        <div class="flex flex-col min-h-screen justify-center items-center">
+          <h1 class="min-h-screen text-center text-blue-950 font-extrabold text-2xl">Our Popular Course</h1>
+      </div>
+      <p class="text-gray-500 text-sm font-light">Education is key to success</p>
+
+      </div>
+      <div class="centered-middle">
+        <div class="box1 flex-col gap-2">
+          <img src="https://www.homeworkhelpglobal.com/wp-content/uploads/2019/03/studying-student-on-desk.jpg">
+          <div class="p-6" style="padding-left: 4px;">
+            <Button class="text-white bg-blue-950 mt-10" style="width: 80px;">Design</Button>
+            <p class="text-blue-950 font-bold mt-5">Computer Engineering</p>
+            <p>education is key to success</p>
+            <div class="flex items-center mt-10">
+              <img class="rounded-2xl" style="border-radius: 6rem;" src="https://th.bing.com/th/id/OIP.NUCYfLiNhhTRWOOMro1xHwHaIT?rs=1&pid=ImgDetMain" width="50px" height="50px">
+              <span class="ml-4 text-blue-950 flex items-center">
+                <p class="text-blue-950 font-semibold mr-4">John Mactavish</p>
+                <!-- Font Awesome icons for heart and people -->
+                <div class="flex items-center space-x-2" style="margin-left:1rem ;">
+                  <i class="fas fa-heart text-red-500"></i>
+                  <span class="text-blue-950">123</span>
+                  <i class="fas fa-users text-transparent" style="margin-left: 1rem;"></i>
+                  <span class="text-blue-950">456</span>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="box1 flex-col gap-2">
+          <img src="https://smiletutor.sg/wp-content/uploads/2020/12/AdobeStock_292618444-scaled.jpeg">
+          <div class="p-6" style="padding-left: 4px;">
+            <Button class="text-white bg-blue-950 mt-10" style="width: 80px;">Design</Button>
+            <p class="text-blue-950 font-bold mt-5">Social Media Network</p>
+            <p>education is key to success</p>
+            <div class="flex items-center mt-10">
+              <img class="rounded-2xl" style="border-radius: 6rem;" src="https://th.bing.com/th/id/OIP.NUCYfLiNhhTRWOOMro1xHwHaIT?rs=1&pid=ImgDetMain" width="50px" height="50px">
+              <span class="ml-4 text-blue-950 flex items-center">
+                <p class="text-blue-950 font-semibold mr-4">John Mactavish</p>
+                <!-- Font Awesome icons for heart and people -->
+                <div class="flex items-center space-x-2" style="margin-left:1rem ;">
+                  <i class="fas fa-heart text-red-500"></i>
+                  <span class="text-blue-950">123</span>
+                  <i class="fas fa-users text-transparent" style="margin-left: 1rem;"></i>
+                  <span class="text-blue-950">456</span>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="box1 flex-col gap-2">
+          <img src="https://static.student.com/storm-frontend-wp/uploads/2016/05/Study-Tips-and-Techniques-student-studyingV1.jpg">
+          <div class="" style="padding-left: 3px;">
+            <Button class="text-white bg-blue-950 mt-10" style="width: 80px;">Design</Button>
+            <p class="text-blue-950 font-bold mt-5">Product Design</p>
+            <p>education is key to success</p>
+            <div class="flex items-center mt-10">
+              <img class="rounded-2xl" style="border-radius: 6rem;" src="https://th.bing.com/th/id/OIP.NUCYfLiNhhTRWOOMro1xHwHaIT?rs=1&pid=ImgDetMain" width="50px" height="50px">
+              <span class=" text-blue-950 flex items-center">
+                <p class="text-blue-950 font-semibold mr-4">John Mactavish</p>
+                <!-- Font Awesome icons for heart and people -->
+                <div class="flex items-center space-x-2" style="margin-left:1rem ;">
+                  <i class="fas fa-heart text-red-500"></i>
+                  <span class="text-blue-950">123</span>
+                  <i class="fas fa-users text-transparent" style="margin-left: 1rem;"></i>
+                  <span class="text-blue-950">456</span>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+        
+
+      </div>
+      <section>
+      <div class="min-h-screen bg-blue-950 h-[100vh] flex flex-col flex-wrap justify-center items-center">
+        <div>
+            <div class="centered-middle pr-10">
+                <h1 class="text-white text-5xl font-semibold mt-10 p-10">Register Now</h1>
+            </div>
+            <p class="text-white font-light text-sm centered-middle">Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit. .</p>
+            <div class="flex flex-wrap gap-3 justify-start centered-middle ml-10">
+                <div class="box2 flex flex-wrap justify-center items-center">
+                    <h1 class="text-white text-5xl">150</h1> <span class="text-white mt-10">days</span>
+                </div>
+                <div class="box2 flex  flex-wrap justify-center items-center">
+                    <h1 class="text-white text-5xl">23</h1> <span class="text-white mt-10">hours</span>
+                </div>
+                <div class="box2 flex flex-wrap justify-center items-center">
+                    <h1 class="text-white text-5xl">47</h1> <span class="text-white mt-10">minute</span>
+                </div>
+                <div class="box2 flex flex-wrap justify-center items-center">
+                    <h1 class="text-white text-5xl">59</h1> <span class="text-white mt-10">seconds</span>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center items-center min-h-screen">
+          
+          <div class="p-6 rounded-lg shadow-lg  w-full box3 ">
+              <header class="text-center mb-4">
+                  <h1 class="text-2xl font-bold text-blue-950">Course for Free</h1>
+                  <p class="text-gray-600">Education is the key</p>
+              </header>
+              <form class="space-y-4">
+                  <div class=" flex-col items-center space-x-4" style="margin-top: 1rem;">
+                     
+                      <input type="text" class="border rounded flex-1 py-2 px-3 text-gray-700" placeholder="Your name">
+                  </div>
+                  <div class=" flex-col items-center space-x-4" style="margin-top: 1rem;">
+                     
+                      <input type="email" class="border rounded flex-1 py-2 px-3 text-gray-700" placeholder="Your email">
+                  </div>
+                  <div class=" flex-col items-center space-x-4" style="margin-top: 1rem;">
+                      
+                      <input type="password" class="border rounded flex-1 py-2 px-3 text-gray-700" placeholder="Your password">
+                  </div>
+                  <div class="text-blue-950 " style="background-color: yellow; text-align: center; margin-top: 3rem;  ">
+                    <button  class="text-blue-950 font-bold">Submit</button>
+                  </div>
+                  
+              </form>
+            
+              
+          </div>
+          
+
+          <div class="box4"></div>
+         
+      </div>
+    </section>
+     
+     <section>
+      <div class="centered-top">
+        <p class="text-blue-950 font-bold text-5xl">Our Expert Trainers</p>
+              <p >education is key to success</p>
+      </div>
+      <div class="centered-middle">
+        <div class="box5">
+          <img src=" https://c.pxhere.com/photos/08/7a/male_portrait_profile_social_media_cv_young_elegant_suit-459413.jpg!d" >
+          <p class="text-center text-blue-950">David Camerson</p>
+          <p class="text-sm font-light">CEO</p>
+        </div>
+        <div class="box5">
+          <img src=" https://i.pinimg.com/originals/17/80/63/17806382b7517d958cb56684dd957ae3.jpg" >
+          <p class="text-center text-blue-950">David Camerson</p>
+          <p class="text-sm font-light">CEO</p>
+        </div>
+        <div class="box5">
+          <img src=" https://media.licdn.com/dms/image/C4D03AQEKZp5Xe616Dg/profile-displayphoto-shrink_800_800/0/1620673588217?e=2147483647&v=beta&t=Gf93iAhswDXF9uaVV1RmbXpyCPYIbfearOfB-VkjtRs" >
+          <p class="text-center text-blue-950">David Camerson</p>
+          <p class="text-sm font-light">CEO</p>
+        </div>
+        <div class="box5">
+          <img src=" https://media.licdn.com/dms/image/D5603AQEnpMNWOJF7xA/profile-displayphoto-shrink_800_800/0/1679500237688?e=2147483647&v=beta&t=K1EOd9FBP6lzUreRE4YQlD0zsnH4gBXrFKI0nmCPvyo" >
+          <p class="text-center text-blue-950">David Camerson</p>
+          <p class="text-sm font-light">CEO</p>
+        </div>
+      </div>
+
+     </section>
+
+     <section>
+      <div class="centered-top">
+        <p class="text-blue-950 font-bold text-5xl">Client Say about me</p>
+        <p  class="mt-4">education is key to success</p>
+      </div>
+      <div class="centered-middle">
+        <!-- First Box -->
+        <div style="background-color: whitesmoke; width: 450px; height: 200px;" class="flex">
+          <img src="https://media.licdn.com/dms/image/C4E03AQFzhVNTwCG3RA/profile-displayphoto-shrink_800_800/0/1606328167022?e=2147483647&v=beta&t=0mv-KV34WQg4MFzGyUu9RZ9JW1cUsAzrtGva2ghLRNE" width="200px" height="250px" style="object-fit: cover; padding: 2rem;">
+          <div class="p-4 flex-col " style="margin-top:2rem;">
+            <p class="text-blue-950 font-bold">Simone Cole</p>
+            <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum </p>
+          </div>
+        </div>
+        
+        <!-- Second Box -->
+        <div style="background-color: whitesmoke; width: 450px; height: 200px;" class="flex">
+          <img src="https://media.licdn.com/dms/image/C4E03AQFzhVNTwCG3RA/profile-displayphoto-shrink_800_800/0/1606328167022?e=2147483647&v=beta&t=0mv-KV34WQg4MFzGyUu9RZ9JW1cUsAzrtGva2ghLRNE" width="200px" height="250px" style="object-fit: cover; padding: 2rem;">
+          <div class="p-4 flex-col justify-start" style="margin-top: 2rem;">
+            <p class="text-blue-950 font-bold">Simone Cole</p>
+            <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum </p>
+          </div>
+        </div>
+      </div>
+      
+      
+     </section>
+      
+     <footer class="bg-blue-950 mt-10 py-10" style="height: 30rem; padding: 40px; margin-top: 20px;">
+      <div class="container mx-auto flex flex-col justify-between h-full p-4" style="align-items: center; margin-top: 110px; padding: auto;">
+        <div class="flex-col items-center justify-center">
+          <p class="text-white font-bold text-2xl">Top Products</p>
+          <p class="text-white opacity-70 font-extralight">books</p>
+          <p class="text-white opacity-70 font-extralight">books</p>
+          <p class="text-white opacity-70 font-extralight">books</p>
+          <p class="text-white opacity-70 font-extralight">books</p>
+        </div>
+        <div class="flex-col items-center justify-center">
+          <p class="text-white font-bold text-2xl">Quick Links</p>
+          <p class="text-white opacity-70 font-extralight">books</p>
+          <p class="text-white opacity-70 font-extralight">books</p>
+          <p class="text-white opacity-70 font-extralight">books</p>
+          <p class="text-white opacity-70 font-extralight">books</p>
+        </div>
+        <div class="flex-col items-center justify-center">
+          <p class="text-white font-bold text-2xl">Features</p>
+          <p class="text-white opacity-70 font-extralight">books</p>
+          <p class="text-white opacity-70 font-extralight">books</p>
+          <p class="text-white opacity-70 font-extralight">books</p>
+          <p class="text-white opacity-70 font-extralight">books</p>
+        </div>
+        <div class="flex-col items-center justify-center">
+          <p class="text-white font-bold text-2xl">Support</p>
+          <p class="text-white opacity-10 font-extralight">books</p>
+          <p class="text-white opacity-70 font-extralight">books</p>
+          <p class="text-white opacity-70 font-extralight">books</p>
+          <p class="text-white opacity-70 font-extralight">books</p>
+        </div>
+        <div class="flex-col items-center justify-center">
+          <p class="text-white font-bold text-2xl" style="margin-bottom: 2.5rem;">Feedback</p>
+          <p class="text-white opacity-70 font-extralight">books</p>
+          <div>
+            <input type="text" class="border-none" style="background-color: whitesmoke;"> 
+            <span class="text-blue-950 bg-yellow-500" style="background-color: yellow;">
+              <button class="font-extrabold">Click Here</button>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="container mx-auto flex justify-between items-center mt-10" style="margin-top: 95px;">
+        <p class="text-white">Some additional text after the columns and all the links of the social media of the websites</p>
+        <div class="flex gap-4">
+          <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div> 
+    </footer>
+    
+    
+    
+    
+     
+  
+ 
+</body>
+</html>
+
+
+
